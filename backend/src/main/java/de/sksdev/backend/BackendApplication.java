@@ -1,13 +1,13 @@
-package de.sksdev.learnspring;
+package de.sksdev.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LearnspringApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LearnspringApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }

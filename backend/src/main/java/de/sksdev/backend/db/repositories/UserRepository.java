@@ -1,6 +1,6 @@
-package de.sksdev.learnspring.db.repositories;
+package de.sksdev.backend.db.repositories;
 
-import de.sksdev.learnspring.db.entities.User;
+import de.sksdev.backend.db.entities.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

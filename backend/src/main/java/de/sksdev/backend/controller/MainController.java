@@ -1,7 +1,7 @@
-package de.sksdev.learnspring.controller;
+package de.sksdev.backend.controller;
 
-import de.sksdev.learnspring.db.entities.User;
-import de.sksdev.learnspring.db.repositories.UserRepository;
+import de.sksdev.backend.db.entities.User;
+import de.sksdev.backend.db.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,7 +25,6 @@ public class MainController {
         u.setName(name);
         u.setEmail(email);
         userRepository.save(u);
-
         return "Saved";
     }
 

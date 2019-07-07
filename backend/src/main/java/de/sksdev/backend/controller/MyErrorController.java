@@ -1,4 +1,4 @@
-package de.sksdev.learnspring.controller;
+package de.sksdev.backend.controller;
 
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.stereotype.Controller;

@@ -1,6 +1,4 @@
-package de.sksdev.learnspring.db.entities;
-
-import javax.persistence.*;
+package de.sksdev.backend.db.entities;
 
 @Entity
 public class User {
